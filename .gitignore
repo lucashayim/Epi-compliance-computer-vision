@@ -1,0 +1,23 @@
+# Segredos e configuração local
+.env
+*.env
+!.env.example
+
+# Dados, modelos e saídas
+data/
+dataset_final/
+images/
+labels/
+fotos_*/
+runs/
+runs_epi/
+*.pt
+*.onnx
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
